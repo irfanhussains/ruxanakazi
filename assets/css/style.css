@@ -200,7 +200,6 @@ section.innerPages h1{
 }
 .treat_box img{
 	transition: transform .25s;
-	width:100%;
 }
 .treat_box:hover{
 	text-decoration:none;
