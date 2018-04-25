@@ -188,12 +188,12 @@ section.innerPages p{
 	color:#f1f1f1;
 	font-size:20px;
 }
-section.innerPages.detail img{
+section.innerPages img{
 	border:2px #BB1E24 solid;
 	padding:15px;
 	
 }
-section.innerPages.detail li{
+section.innerPages li{
 		color:#f1f1f1;
 	font-size:20px;
 	list-style:square;
