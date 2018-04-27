@@ -193,6 +193,21 @@ section.innerPages img{
 	padding:15px;
 	
 }
+section.innerPages.all_list img{
+	border:0;
+	padding:0;
+	width:100%;
+	
+}
+section.innerPages.dermashoppe img{
+	border:0;
+	padding:0;
+	max-height:200px;
+	width:100%;
+	margin-bottom:30px;
+	
+}
+
 section.innerPages li{
 		color:#f1f1f1;
 	font-size:20px;
@@ -212,6 +227,9 @@ section.innerPages li{
 }
 .inner_bg.about{
 	background-image:url(../images/bg_about.jpg);
+}
+.inner_bg.cosmetic_concerns{
+	background-image:url(../images/bg_cosmetic_concern.jpg);
 }
 .no-gutter > [class*='col-'] {
     padding-right: 0;
