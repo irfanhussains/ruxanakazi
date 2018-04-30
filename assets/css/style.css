@@ -311,6 +311,51 @@ section.innerPages li{
 	text-decoration:underline;
 	color:#fff;
 }
+.testimonials_button{
+	position:absolute;
+	right:0;
+	top:50%;
+	background:url(../images/bg_testimonials.png);
+	width:50px;
+	height:158px;
+	margin-top:-79px;
+	cursor:pointer;
+	
+}
+#myCarousel2 .carousel-inner{
+	min-height:220px;
+}
+#myCarousel2 .carousel-control{
+	text-shadow:none;
+	opacity:1;
+	background:none;
+}
+#myCarousel2 .carousel-control.left{
+	left:-15%;
+}
+#myCarousel2 .carousel-control.right{
+	right:-15%;
+}
+
+.modal-header .close{
+	display:none;
+}
+.modal-content{
+	background: rgba(0,0,0,0.7);
+    color: #fff;
+	border:none;
+	border-radius:0;
+}
+.modal-footer {
+    background: #701216;
+    text-align: right;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px;
+}
+.modal-footer a{
+	color:#fff;
+}
 @media screen and (min-width: 1400px) {
   .container {
     width: 1370px;
