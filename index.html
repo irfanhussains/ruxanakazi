@@ -31,7 +31,7 @@
       <section class="home">
         <div class="container">
           <div class="row">
-            <div class="col-sm-6 col-xs-12">
+            <div class="col-sm-6 col-xs-11">
               <div class="welcome">
                 <div class="welcome-top">
                   <h1>Welcome to Aesthetic Skin Clinic</h1>
@@ -49,7 +49,7 @@
       <section class="home">
         <div class="container">
           <div class="row">
-            <div class="col-sm-6 col-xs-12">
+            <div class="col-sm-6 col-xs-11">
               <div class="welcome">
                 <div class="welcome-top">
                   <h1>Experience &amp; Dependability</h1>
@@ -69,7 +69,7 @@
       <section class="home">
         <div class="container">
           <div class="row">
-            <div class="col-sm-6 col-xs-12">
+            <div class="col-sm-6 col-xs-11">
               <div class="welcome">
                 <div class="welcome-top">
                   <h1>No-Cost, No-Obligation Consultations</h1>
@@ -88,7 +88,7 @@
       <section class="home">
         <div class="container">
           <div class="row">
-            <div class="col-sm-6 col-xs-12">
+            <div class="col-sm-6 col-xs-11">
               <div class="welcome">
                 <div class="welcome-top">
                   <h1>Affordable Payment Options</h1>
@@ -105,7 +105,7 @@
       <section class="home">
         <div class="container">
           <div class="row">
-            <div class="col-sm-6 col-xs-12">
+            <div class="col-sm-6 col-xs-11">
               <div class="welcome">
                 <div class="welcome-top">
                   <h1>Convenience</h1>
@@ -184,7 +184,71 @@
 
 <!-- Header Ends --> 
 <!-- Main Content Area Begins --> 
+<div class="testimonials_button" data-toggle="modal" data-target="#myModal"></div>
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
 
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title">Testimonials</h3>
+      </div>
+      <div class="modal-body">
+      	<div id="myCarousel2" class="carousel slide" data-ride="carousel">
+            
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <p>I, Sadia Bokhari, Develomment Consultant, never really believed in going to an Aesthetic Specialist for maintaining a healthy appearance before I became associated with Dr Ruxana Kazi . Now in my fifth year of association I believe that I look smart and upto the mark as a professional only because of the procedures I have had at the Dr Ruxi. Thanks a lot for a thoroughly excellent experience.</p>
+<p><em><strong>Sadia Bokhari</strong></em></p>
+                </div>
+            
+                <div class="item">
+                  <p>I have been Dr Ruxana's  patient for many years. She has always been totally proficient in her field of aesthetic dermatology . Her professionalism and kind nature are unsurpassed.</p>
+<p><em><strong>Ayesha Kazmi</strong></em></p>
+                </div>
+            
+                <div class="item">
+                  <p>I am very happy with staff and the clinic of Dr.Ruxana.Always smiling and good Most of all I am happy with nice and kind treatments of Dr.Ruxana with excellent results.I am going to her for nearly 10years now<i class="fas fa-heart"></i>now love it</p>
+<p><em><strong>Mrs Saeed</strong></em></p>                  
+                </div>
+            
+                <div class="item">
+                  <p>Dr Ruxana very qualified and soft spoken skin expert. She have highly professional opproach in solving skin matters . Clinic is well equipped and staff very co operative . She is best in town .</p>
+<p><em><strong>Farah naz</strong></em></p>
+                </div>
+                <div class="item">
+                  <p>Dr. Ruxana is an exceptional doctor who not only deals with patients politely but also makes sure to answer all their queries which leaves the patient satisfied . Her treatments are worth trying , I have been her patient for a while and she always recommends the right thing and not something just for monetary gain. I would recommend her in a blink to all those looking for a good dermatologist.</p>
+<p><em><strong>Mehak</strong></em></p>
+                </div>
+                <div class="item">
+                  <p>Dr. Ruxana has the best treatments to offer in town. She has the best machines and high quality products which leave your face glowing! The staff is super sweet and Dr. Rukshana's amiable nature makes you trust her instantly. Totally swear by her treatments and recommendations!</p>
+<p><em><strong>Maryam Zia</strong></em></p>
+                </div>
+                
+              </div>
+            
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+      </div>
+      <div class="modal-footer">
+      <a href="#" data-dismiss="modal">Close</a>
+
+      </div>
+    </div>
+
+  </div>
+</div>
 <!-- Main Content Area ends --> 
 <!-- Footer Begins -->
 <footer class="homeOnly">
@@ -197,13 +261,13 @@
 <script src="assets/js/jquery.ticker.js"></script>
 
 <script type="text/javascript">
-	var $item = $('.item'); 
+	var $item = $('#myCarousel .item'); 
 	var $wHeight = $(window).height();
 	$item.eq(0).addClass('active');
 	$item.height($wHeight); 
 	$item.addClass('full-screen');
 	
-	$('.carousel img').each(function() {
+	$('#myCarousel.carousel img').each(function() {
 	  var $src = $(this).attr('src');
 	  var $color = $(this).attr('data-color');
 	  $(this).parent().css({
@@ -218,7 +282,7 @@
 	  $item.height($wHeight);
 	});
 	
-	$('.carousel').carousel({
+	$('#myCarousel').carousel({
 	  interval: 10000,
 	  pause: "false"
 	});
