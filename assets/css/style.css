@@ -176,7 +176,7 @@ footer.homeOnly{
 }
 section.innerPages{
 	background:rgba(0,0,0,0.7);
-	margin:110px 0 0 0;
+	margin:100px 0 0 0;
 	    padding: 0 0 20px 0;
 		    min-height: 82vh;
 }
@@ -225,6 +225,14 @@ section.innerPages li{
 .inner_bg.contact{
 	background-image:url(../images/bg_contact.jpg);
 }
+.inner_bg.contact label{
+	color:#fff;
+	margin:5px 0;
+}
+.inner_bg.contact .submit-btn{
+	margin:10px 0;
+}
+
 .inner_bg.about{
 	background-image:url(../images/bg_about.jpg);
 }
